@@ -246,10 +246,13 @@ Do not use it to:
   directly. Read them before you assume.
 - **Deceive people** — impersonating someone's voice or passing off a fabricated
   clip as a real recording.
+- **Anything haram**, or forbidden by whatever faith or conscience you answer to.
+  Playing something through a soundboard does not change what it is. The author
+  of this project does not endorse and is not answerable for such use.
 
-If something is unlawful for you, forbidden to you, or simply unkind, running it
-through this app does not make it otherwise. That judgement is yours, and so are
-the consequences.
+If something is unlawful for you, haram for you, forbidden to you, or simply
+unkind, running it through this app does not make it otherwise. That judgement is
+yours, and so are the consequences.
 
 The recorder captures your own microphone and your own system audio. Recording
 other people can require their consent depending on where you live — establishing
