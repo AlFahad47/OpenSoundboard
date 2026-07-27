@@ -1,0 +1,36 @@
+appId: com.opensoundboard.app
+productName: OpenSoundboard
+copyright: OpenSoundboard
+
+directories:
+  output: release
+  buildResources: build
+
+files:
+  - out/**/*
+  - build/icon.png
+  - build/icon.ico
+  - package.json
+
+asarUnpack:
+  - build/**
+
+win:
+  icon: build/icon.ico
+  target:
+    - target: nsis
+      arch: [x64]
+    - target: portable
+      arch: [x64]
+
+nsis:
+  oneClick: false
+  perMachine: false
+  allowToChangeInstallationDirectory: true
+  createDesktopShortcut: true
+  createStartMenuShortcut: true
+  shortcutName: OpenSoundboard
+  artifactName: ${productName}-${version}-setup.${ext}
+
+portable:
+  artifactName: ${productName}-${version}-portable.${ext}
