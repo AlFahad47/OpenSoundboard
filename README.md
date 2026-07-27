@@ -227,6 +227,43 @@ shape falls back to the backup rather than starting you over empty.
 
 ---
 
+## Responsible use
+
+OpenSoundboard is a tool. It plays audio files **you** supply, to devices **you**
+choose. It ships with no sounds, hosts nothing, and uploads nothing.
+
+What you play, where you play it, and who has to hear it is yours to answer for.
+
+Do not use it to:
+
+- **Harass, bully, intimidate or humiliate anyone.** Firing sounds at someone to
+  distress them, drown them out, or make them a target is abuse — whatever the
+  sound happens to be.
+- **Break the law**, including copyright, harassment, recording-consent and
+  broadcasting law where you live.
+- **Break the rules of the platform you are on.** Discord, Twitch, YouTube and
+  most games have terms covering disruptive audio, and some address soundboards
+  directly. Read them before you assume.
+- **Deceive people** — impersonating someone's voice or passing off a fabricated
+  clip as a real recording.
+
+If something is unlawful for you, forbidden to you, or simply unkind, running it
+through this app does not make it otherwise. That judgement is yours, and so are
+the consequences.
+
+The recorder captures your own microphone and your own system audio. Recording
+other people can require their consent depending on where you live — establishing
+that is your responsibility, not the app's.
+
+Sounds you add are yours to hold the rights to. This project ships none, bundles
+none and distributes none.
+
+The authors and contributors provide this software as-is, accept no liability for
+how anyone uses it, and are not responsible for anything done with it. See
+[LICENSE](LICENSE).
+
+---
+
 ## Licence
 
 [MIT](LICENSE). Ships with no sounds — bring your own.
