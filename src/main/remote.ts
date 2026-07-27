@@ -70,10 +70,14 @@ function hostAllowed(req: http.IncomingMessage): boolean {
   const name = host.replace(/:\d+$/, '').replace(/^\[|\]$/g, '')
   if (name === 'localhost' || name === '::1' || /^127\./.test(name)) return true
   // Private IPv4 ranges only — a public name pointing here is a rebinding attempt.
+  // 100.64/10 is CGNAT, which is where Tailscale and similar overlays live; it
+  // is not publicly routable, so allowing it costs nothing and saves anyone
+  // reaching their own machine over a mesh VPN.
   return (
     /^10\./.test(name) ||
     /^192\.168\./.test(name) ||
     /^172\.(1[6-9]|2\d|3[01])\./.test(name) ||
+    /^100\.(6[4-9]|[7-9]\d|1[01]\d|12[0-7])\./.test(name) ||
     /^169\.254\./.test(name) ||
     /^fe80:/i.test(name) ||
     /^f[cd][0-9a-f]{2}:/i.test(name)
