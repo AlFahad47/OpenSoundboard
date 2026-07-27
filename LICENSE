@@ -22,9 +22,13 @@ SOFTWARE.
 
 ---
 
-OpenSoundboard bundles Electron, which redistributes Chromium and FFmpeg under
-their own licences (BSD-3-Clause, LGPL-2.1 and others). Those notices ship in
-the packaged application under `LICENSES.chromium.html`.
+OpenSoundboard bundles Electron, React, Zustand, Lucide, clsx and ws. Their
+copyright notices and licence texts are reproduced in `THIRD-PARTY-NOTICES.md`,
+which ships with the application.
+
+Electron in turn redistributes Chromium and FFmpeg under their own licences
+(BSD-3-Clause, LGPL-2.1 and others). Those notices ship in the packaged
+application as `LICENSE.electron.txt` and `LICENSES.chromium.html`.
 
 OpenSoundboard does not redistribute VB-CABLE. The driver is downloaded from
 VB-Audio's own servers at the user's request, and remains subject to VB-Audio's

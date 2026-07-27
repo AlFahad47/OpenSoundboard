@@ -11,6 +11,9 @@ files:
   - build/icon.png
   - build/icon.ico
   - package.json
+  # MIT and ISC both require their notices to travel with the binary.
+  - LICENSE
+  - THIRD-PARTY-NOTICES.md
 
 asarUnpack:
   - build/**
